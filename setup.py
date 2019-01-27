@@ -10,5 +10,6 @@ setup(
     author_email='patrick.westphal@informatik.uni-leipzig.de',
     description='',
     install_requires=[
+        'cassandra-driver==3.16.0',
     ],
 )
