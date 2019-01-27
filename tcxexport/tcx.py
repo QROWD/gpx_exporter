@@ -1,4 +1,5 @@
-from datetime import datetime
+import random
+from datetime import datetime, timedelta
 from uuid import uuid4
 from xml.etree import ElementTree
 from xml.etree.cElementTree import Element
@@ -111,7 +112,7 @@ class Activity(object):
         return activity
 
 
-class TCXFile(object):
+class TCXData(object):
     def __init__(self):
         self.activities = []
 
